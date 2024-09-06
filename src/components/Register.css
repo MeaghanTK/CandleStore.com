@@ -1,0 +1,104 @@
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styles */
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Label styles */
+.register-container label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Error message styling */
+.register-container .error-message {
+  color: #ff3333;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Button styles */
+.register-container button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #6c5b7b;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button[type="submit"]:hover {
+  background-color: #6c5b7b;
+}
+
+/* Link styles */
+.register-container .register-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.register-container .register-link:hover {
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+  .register-container {
+    padding: 15px;
+  }
+
+  .register-container input[type="text"],
+  .register-container input[type="email"],
+  .register-container input[type="password"] {
+    font-size: 14px;
+  }
+}
+
+/* Styling for the login link */
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.register-link .highlight {
+  color: #6c5b7b;
+}

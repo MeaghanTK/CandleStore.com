@@ -1,0 +1,69 @@
+/* Container for the landing page */
+.landing-container {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Welcome message styling */
+.landing-container h1 {
+  font-size: 2.5em;
+  color: #6c5b7b;
+  margin-bottom: 20px;
+}
+
+/* Subtitle or additional text */
+.landing-container p {
+  font-size: 1.2em;
+  color: #808080;
+  margin-bottom: 40px;
+}
+
+/* Container for the buttons */
+.landing-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Button styles */
+.landing-buttons .btn {
+  padding: 12px 20px;
+  background-color: #6c5b7b;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+
+.landing-buttons .btn:hover {
+  background-color: #b3a1d0;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .landing-container h1 {
+    font-size: 2em;
+  }
+
+  .landing-container p {
+    font-size: 1em;
+  }
+
+  .landing-buttons {
+    flex-direction: column;
+  }
+
+  .landing-buttons .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
